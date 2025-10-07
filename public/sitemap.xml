@@ -4,21 +4,61 @@
   <url>
     <loc>https://www.rocketsignals.trade/</loc>
     <lastmod>2024-07-25</lastmod>
-    <priority>1.00</priority>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#about</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#how-it-works</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#features</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#testimonials</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#results</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/#faq</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.rocketsignals.trade/privacy-policy</loc>
     <lastmod>2024-07-25</lastmod>
-    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.rocketsignals.trade/terms-of-service</loc>
     <lastmod>2024-07-25</lastmod>
-    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.rocketsignals.trade/disclaimer</loc>
     <lastmod>2024-07-25</lastmod>
-    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
