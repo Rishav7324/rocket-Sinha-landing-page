@@ -3,7 +3,6 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ArrowRight, Rocket, CheckCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FomoCountdown } from "./fomo-countdown";
 
 const HeroSection = () => {
   const heroBg = PlaceHolderImages.find((img) => img.id === "hero-background");
@@ -64,9 +63,6 @@ const HeroSection = () => {
           </span>
         </div>
         
-        <div className="mt-6 animate-in fade-in slide-in-from-bottom-16 duration-1000 ease-in-out">
-            <FomoCountdown />
-        </div>
       </div>
     </section>
   );
