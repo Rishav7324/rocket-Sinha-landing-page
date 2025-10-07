@@ -30,9 +30,9 @@ const WhyJoinSection = () => {
     },
     {
       icon: <BookOpen className="h-8 w-8" />,
-      title: "10+ Courses & 20+ Books",
+      title: "Comprehensive Course",
       description:
-        "Receive a massive library of premium trading education materials for free upon joining.",
+        "Receive our complete trading course and educational materials for free upon joining.",
     },
     {
       icon: <Signal className="h-8 w-8" />,
