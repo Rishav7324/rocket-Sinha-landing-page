@@ -17,7 +17,6 @@ const HeroSection = () => {
           fill
           className="object-cover"
           priority
-          data-ai-hint={heroBg.imageHint}
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background"></div>

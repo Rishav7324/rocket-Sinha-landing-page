@@ -53,7 +53,6 @@ const AboutSection = () => {
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
-                data-ai-hint={aboutImage.imageHint}
               />
             </Card>
           )}

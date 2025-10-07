@@ -62,7 +62,6 @@ const TestimonialsSection = () => {
                       width={400}
                       height={600}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                      data-ai-hint={image.imageHint}
                     />
                   </div>
                 )}
