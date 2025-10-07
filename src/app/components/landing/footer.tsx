@@ -12,7 +12,7 @@ const Footer = () => {
   };
   const socialLinks = {
     Telegram: "https://t.me/OFFICIALbinomobull",
-    YouTube: "https://youtube.com",
+    YouTube: "https://youtube.com/@rocketsignals?si=YJ2v6z6oSTMZRHOp",
     Instagram: "https://instagram.com",
   };
 
