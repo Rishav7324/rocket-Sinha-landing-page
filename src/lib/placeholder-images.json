@@ -9,55 +9,55 @@
     {
       "id": "profit-screenshot-1",
       "description": "A screenshot of a trading platform showing significant profits.",
-      "imageUrl": "/assets/testimonial1.jpg",
+      "imageUrl": "https://picsum.photos/seed/profit1/400/600",
       "imageHint": "profit chart"
     },
     {
       "id": "profit-screenshot-2",
       "description": "Another screenshot of a trading platform showing a successful trade.",
-      "imageUrl": "/assets/testimonial2.jpg",
+      "imageUrl": "https://picsum.photos/seed/profit2/400/600",
       "imageHint": "profit chart"
     },
     {
       "id": "telegram-review-1",
       "description": "A screenshot of a positive review from a member in the Telegram chat.",
-      "imageUrl": "/assets/testimonial3.jpg",
+      "imageUrl": "https://picsum.photos/seed/review1/400/600",
       "imageHint": "chat message"
     },
     {
       "id": "telegram-review-2",
       "description": "Another screenshot of a success story shared in the Telegram group.",
-      "imageUrl": "/assets/testimonial4.jpg",
+      "imageUrl": "https://picsum.photos/seed/review2/400/600",
       "imageHint": "chat message"
     },
     {
       "id": "hero-background",
       "description": "Abstract background with glowing lines resembling a financial chart.",
-      "imageUrl": "https://images.unsplash.com/photo-1599589830132-432d52b86780?q=80&w=2070&auto=format&fit=crop",
-      "imageHint": "abstract chart"
+      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "stock chart"
     },
     {
       "id": "proof-1",
       "description": "Proof of trading results.",
-      "imageUrl": "/assets/proof1.jpg",
+      "imageUrl": "https://picsum.photos/seed/proof1/400/600",
       "imageHint": "trading results"
     },
     {
       "id": "proof-2",
       "description": "Proof of trading results.",
-      "imageUrl": "/assets/proof2.jpg",
+      "imageUrl": "https://picsum.photos/seed/proof2/400/600",
       "imageHint": "trading results"
     },
     {
       "id": "proof-3",
       "description": "Proof of trading results.",
-      "imageUrl": "/assets/proof3.jpg",
+      "imageUrl": "https://picsum.photos/seed/proof3/400/600",
       "imageHint": "trading results"
     },
     {
       "id": "proof-4",
       "description": "Proof of trading results.",
-      "imageUrl": "/assets/proof4.jpg",
+      "imageUrl": "https://picsum.photos/seed/proof4/400/600",
       "imageHint": "trading results"
     },
     {
