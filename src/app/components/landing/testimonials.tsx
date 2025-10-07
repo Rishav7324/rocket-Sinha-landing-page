@@ -19,27 +19,27 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: "profit-screenshot-1",
-      name: "Alex D.",
+      name: "Rohan S.",
       handle: "Trader",
-      review: "The 100% rule strategy is a game-changer. My win rate has never been higher. Thank you, Rocket Signals!",
+      review: "Yeh 100% rule strategy toh mind-blowing hai. Mera win rate itna high kabhi nahi tha. Shukriya, Rocket Signals!",
     },
     {
       id: "telegram-review-1",
-      name: "Jessica P.",
+      name: "Priya M.",
       handle: "New Member",
-      review: "Joined last week and already in profit. The community is so helpful and the signals are incredibly accurate.",
+      review: "Pichle hafte join kiya aur already profit mein. Community bahut helpful hai aur signals bhi ekdam accurate hain.",
     },
     {
       id: "profit-screenshot-2",
-      name: "Mike T.",
+      name: "Vikram T.",
       handle: "Veteran Trader",
-      review: "I've been in many groups, but this is the first one that delivers on its promises. Real results, real mentorship.",
+      review: "Bohot saare groups join kiye, par pehli baar koi group mila jo apne promises poore karta hai. Asli results, asli guidance.",
     },
     {
       id: "telegram-review-2",
-      name: "Sarah L.",
+      name: "Aisha K.",
       handle: "Part-time Trader",
-      review: "Finally a system that works with my busy schedule. The live calls are the best part. Highly recommended!",
+      review: "Finally ek aisa system mila jo mere busy schedule ke saath kaam karta hai. Live calls sabse best part hai. Highly recommended!",
     },
   ];
 
