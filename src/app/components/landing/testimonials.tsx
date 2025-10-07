@@ -51,6 +51,60 @@ const TestimonialsSection = () => {
       handle: "Beginner",
       review: "Trading se darr lagta tha, but inke step-by-step course ne sab aasan kar diya. Ab main confident feel karti hoon.",
     },
+    {
+        id: 'karan',
+        name: 'Karan J.',
+        handle: 'Engineer',
+        review: 'Inki strategy aur money management rules ne meri trading ko next level pe पहुंचा दिया hai. Pehle main hamesha loss karta tha, but ab main consistent profit bana raha hoon. Yeh group har new trader ke liye ek blessing hai.'
+    },
+    {
+        id: 'sunita',
+        name: 'Sunita D.',
+        handle: 'Homemaker',
+        review: 'Ghar baithe trading se paise kamana sapna lagta tha, lekin Rocket Signals ne yeh sach kar diya. Unke signals aur support system awesome hain. Main har mahine achha खासी income generate kar leti hoon. Thank you team!'
+    },
+    {
+        id: 'anuj',
+        name: 'Anuj V.',
+        handle: 'IT Professional',
+        review: 'Market analysis ke liye time nahi milta tha, isliye signals pe depend rehta hoon. Is group ke signals ki accuracy kamaal ki hai. Aur inka diya hua course material itna detailed hai ki ab main khud bhi patterns samajhne laga hoon.'
+    },
+    {
+        id: 'aditi',
+        name: 'Aditi R.',
+        handle: 'Analyst',
+        review: 'Maine bohot se paid groups try kiye but sab jhoothe nikle. Rocket Signals pehle group hai jo free mein itni value de raha hai. Inke mentorship program ne mere saare doubts clear kar diye. Best trading community in India, hands down!'
+    },
+    {
+        id: 'rajesh',
+        name: 'Rajesh K.',
+        handle: 'Small Business Owner',
+        review: 'Apne business ke baad, trading meri second income source ban gayi hai, all thanks to Rocket Signals. Inka risk management system itna strong hai ki capital hamesha safe rehta hai. Main sabko yeh group join karne ki salah dunga.'
+    },
+    {
+      id: 'pooja',
+      name: 'Pooja S.',
+      handle: 'Marketing Exec',
+      review: 'Telegram pe inka channel mila aur life badal gayi. Signals ki quality top-notch hai.',
+    },
+    {
+      id: 'amit',
+      name: 'Amit B.',
+      handle: 'Freelancer',
+      review: 'Best group for binary trading. Course material amazing hai. Full support.',
+    },
+    {
+      id: 'isha',
+      name: 'Isha N.',
+      handle: 'Designer',
+      review: 'VIP group join karke trading mein confidence aaya. Sab log ek doosre ki help karte hain.',
+    },
+    {
+      id: 'manoj',
+      name: 'Manoj P.',
+      handle: 'Sales Head',
+      review: 'Inke live trading sessions se bohot kuch seekhne ko milta hai. Ekdam practical approach.',
+    }
   ];
 
   return (
