@@ -44,12 +44,11 @@ const ResultsSection = () => {
                   <div className="p-1">
                     <Card className="overflow-hidden">
                       <CardContent className="p-0">
-                        <div className="aspect-[3/4] overflow-hidden">
+                        <div className="relative aspect-[3/4] overflow-hidden">
                           <Image
                             src={image.imageUrl}
                             alt={image.description}
-                            width={400}
-                            height={600}
+                            fill
                             className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                           />
                         </div>

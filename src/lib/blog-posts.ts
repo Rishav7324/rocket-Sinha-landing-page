@@ -245,38 +245,39 @@ At Rocket Signals, we understand that teaching a strategy is only half the battl
 ];
 
 const getImageForPost = (slug: string): ImagePlaceholder => {
-    let hint: string;
+    let imageId: string;
     switch (slug) {
         case 'demystifying-binary-options':
-            hint = 'stock chart analysis';
+            imageId = 'blog-binary-options';
             break;
         case 'mastering-candlestick-patterns':
-            hint = 'candlestick chart';
+            imageId = 'blog-candlesticks';
             break;
         case 'risk-management-in-binary-trading':
-            hint = 'financial risk';
+            imageId = 'blog-risk-management';
             break;
         case 'binomo-vs-quotex':
-            hint = 'versus screen';
+            imageId = 'blog-platforms';
             break;
         case 'avoiding-trading-scams':
-            hint = 'security lock';
+            imageId = 'blog-security';
             break;
         case 'trading-psychology':
-            hint = 'brain chess';
+            imageId = 'blog-psychology';
             break;
         default:
-            hint = 'trading screen';
+            imageId = 'hero-background'; // Fallback to a generic image
             break;
     }
-    const image = PlaceHolderImages.find(p => p.imageHint === hint);
+    
+    const image = PlaceHolderImages.find(p => p.id === imageId);
     if (image) return image;
 
-    // Fallback
+    // Ultimate fallback if the specific ID is not found for some reason
     const fallbackImage = PlaceHolderImages.find(p => p.id === 'hero-background');
     if (fallbackImage) return fallbackImage;
     
-    // Ultimate fallback
+    // Absolute fallback in case placeholder-images.json is empty or hero-background is missing
     return {
         id: 'fallback',
         description: 'Abstract background',
@@ -298,4 +299,3 @@ export const getBlogPosts = (): BlogPost[] => {
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
   return hydratedBlogPosts.find((post) => post.slug === slug);
 };
-
