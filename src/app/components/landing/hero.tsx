@@ -3,6 +3,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ArrowRight, Rocket, CheckCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import CountdownTimer from "./countdown-timer";
 
 const HeroSection = () => {
   const heroBg = PlaceHolderImages.find((img) => img.id === "hero-background");
@@ -47,6 +48,8 @@ const HeroSection = () => {
             </a>
           </Button>
         </div>
+
+        <CountdownTimer />
 
         <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-foreground/60 animate-in fade-in slide-in-from-bottom-12 duration-1000 ease-in-out">
           <span className="flex items-center gap-2">
