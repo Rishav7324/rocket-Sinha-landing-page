@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.rocketsignals.trade/</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.rocketsignals.trade/disclaimer</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2024-07-25</lastmod>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.rocketsignals.trade/privacy-policy</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rocketsignals.trade/terms-of-service</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.rocketsignals.trade/disclaimer</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.80</priority>
   </url>
 </urlset>
