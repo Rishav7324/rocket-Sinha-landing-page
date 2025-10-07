@@ -6,6 +6,9 @@ const Footer = () => {
     Home: "#home",
     About: "#about",
     FAQ: "#faq",
+    "Privacy Policy": "/privacy-policy",
+    "Terms of Service": "/terms-of-service",
+    Disclaimer: "/disclaimer",
   };
   const socialLinks = {
     Telegram: "https://t.me/OFFICIALbinomobull",
