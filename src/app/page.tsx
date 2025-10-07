@@ -4,6 +4,7 @@ import AboutSection from "@/app/components/landing/about";
 import HowItWorksSection from "@/app/components/landing/how-it-works";
 import WhyJoinSection from "@/app/components/landing/why-join";
 import TestimonialsSection from "@/app/components/landing/testimonials";
+import ResultsSection from "@/app/components/landing/results";
 import FaqSection from "@/app/components/landing/faq";
 import FinalCtaSection from "@/app/components/landing/final-cta";
 import Footer from "@/app/components/landing/footer";
@@ -18,6 +19,7 @@ export default function Home() {
         <HowItWorksSection />
         <WhyJoinSection />
         <TestimonialsSection />
+        <ResultsSection />
         <FaqSection />
         <FinalCtaSection />
       </main>
