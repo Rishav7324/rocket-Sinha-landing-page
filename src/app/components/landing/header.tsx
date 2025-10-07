@@ -1,7 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 import Link from "next/link";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 const Header = () => {
@@ -41,11 +47,14 @@ const Header = () => {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right">
+                <SheetHeader>
+                  <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                </SheetHeader>
                 <div className="grid gap-4 py-6">
-                <Link href="#" className="mr-6 flex items-center space-x-2">
-                  <Rocket className="h-6 w-6 text-primary" />
-                  <span className="font-bold">Rocket Signals</span>
-                </Link>
+                  <Link href="#" className="mr-6 flex items-center space-x-2">
+                    <Rocket className="h-6 w-6 text-primary" />
+                    <span className="font-bold">Rocket Signals</span>
+                  </Link>
                   {navLinks.map(({ href, label }) => (
                     <Link
                       key={label}
@@ -55,8 +64,12 @@ const Header = () => {
                       {label}
                     </Link>
                   ))}
-                   <Button asChild>
-                    <a href="https://t.me/OFFICIALbinomobull" target="_blank" rel="noopener noreferrer">
+                  <Button asChild>
+                    <a
+                      href="https://t.me/OFFICIALbinomobull"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Join Telegram
                     </a>
                   </Button>
