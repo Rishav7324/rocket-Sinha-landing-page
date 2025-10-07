@@ -9,25 +9,25 @@
     {
       "id": "profit-screenshot-1",
       "description": "A screenshot of a trading platform showing significant profits.",
-      "imageUrl": "https://picsum.photos/seed/profit1/400/600",
+      "imageUrl": "/assets/profit-screenshot-1.jpg",
       "imageHint": "profit chart"
     },
     {
       "id": "profit-screenshot-2",
       "description": "Another screenshot of a trading platform showing a successful trade.",
-      "imageUrl": "https://picsum.photos/seed/profit2/400/600",
+      "imageUrl": "/assets/profit-screenshot-2.jpg",
       "imageHint": "profit chart"
     },
     {
       "id": "telegram-review-1",
       "description": "A screenshot of a positive review from a member in the Telegram chat.",
-      "imageUrl": "https://picsum.photos/seed/review1/400/600",
+      "imageUrl": "/assets/telegram-review-1.jpg",
       "imageHint": "chat message"
     },
     {
       "id": "telegram-review-2",
       "description": "Another screenshot of a success story shared in the Telegram group.",
-      "imageUrl": "https://picsum.photos/seed/review2/400/600",
+      "imageUrl": "/assets/telegram-review-2.jpg",
       "imageHint": "chat message"
     },
     {
@@ -39,25 +39,25 @@
     {
       "id": "proof-1",
       "description": "Proof of trading results.",
-      "imageUrl": "https://picsum.photos/seed/proof1/400/600",
+      "imageUrl": "/assets/proof-1.jpg",
       "imageHint": "trading results"
     },
     {
       "id": "proof-2",
       "description": "Proof of trading results.",
-      "imageUrl": "https://picsum.photos/seed/proof2/400/600",
+      "imageUrl": "/assets/proof-2.jpg",
       "imageHint": "trading results"
     },
     {
       "id": "proof-3",
       "description": "Proof of trading results.",
-      "imageUrl": "https://picsum.photos/seed/proof3/400/600",
+      "imageUrl": "/assets/proof-3.jpg",
       "imageHint": "trading results"
     },
     {
       "id": "proof-4",
       "description": "Proof of trading results.",
-      "imageUrl": "https://picsum.photos/seed/proof4/400/600",
+      "imageUrl": "/assets/proof-4.jpg",
       "imageHint": "trading results"
     },
     {
