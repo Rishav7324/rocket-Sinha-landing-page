@@ -5,6 +5,7 @@ const Footer = () => {
   const footerLinks = {
     Home: "#home",
     About: "#about",
+    Blog: "/blog",
     FAQ: "#faq",
     "Privacy Policy": "/privacy-policy",
     "Terms of Service": "/terms-of-service",

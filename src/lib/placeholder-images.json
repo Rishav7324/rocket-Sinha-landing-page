@@ -65,6 +65,42 @@
       "description": "Smart caucasian businessman hand touch invisible stock chart market screen dark background. Business financial ideas concept.",
       "imageUrl": "https://images.unsplash.com/photo-1624953587687-e259b76424d3?q=80&w=2070&auto=format&fit=crop",
       "imageHint": "stock chart"
+    },
+    {
+      "id": "blog-binary-options",
+      "description": "A screen showing binary options trading data and charts.",
+      "imageUrl": "https://images.unsplash.com/photo-1640340434855-6084b1f974b7?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "stock chart analysis"
+    },
+    {
+      "id": "blog-candlesticks",
+      "description": "A close-up of a screen displaying complex candlestick chart patterns for technical analysis.",
+      "imageUrl": "https://images.unsplash.com/photo-1612178524037-c81434a9425b?q=80&w=1932&auto=format&fit=crop",
+      "imageHint": "candlestick chart"
+    },
+    {
+      "id": "blog-risk-management",
+      "description": "A metaphorical image of balancing risk, perhaps with scales or a tightrope.",
+      "imageUrl": "https://images.unsplash.com/photo-1550503202-09c394a65662?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "financial risk"
+    },
+    {
+      "id": "blog-platforms",
+      "description": "An image showing two phone screens side-by-side, each with a different trading app UI.",
+      "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "versus screen"
+    },
+    {
+      "id": "blog-security",
+      "description": "A digital padlock or shield icon overlaid on a financial chart, representing security.",
+      "imageUrl": "https://images.unsplash.com/photo-1550929969-9c5c76742562?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "security lock"
+    },
+    {
+      "id": "blog-psychology",
+      "description": "An abstract image representing a brain or mind with chess pieces, symbolizing strategy and psychology.",
+      "imageUrl": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "brain chess"
     }
   ]
 }

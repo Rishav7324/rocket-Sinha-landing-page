@@ -16,6 +16,7 @@ const Header = () => {
     { href: "#features", label: "Features" },
     { href: "#testimonials", label: "Testimonials" },
     { href: "#results", label: "Results" },
+    { href: "/blog", label: "Blog" },
     { href: "#faq", label: "FAQ" },
   ];
 
@@ -48,7 +49,7 @@ const Header = () => {
               </SheetTrigger>
               <SheetContent side="right">
                 <SheetHeader>
-                  <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                  <SheetTitle>Navigation Menu</SheetTitle>
                 </SheetHeader>
                 <div className="grid gap-4 py-6">
                   <Link href="#" className="mr-6 flex items-center space-x-2">
