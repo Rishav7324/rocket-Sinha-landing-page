@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Telegram } from "lucide-react";
+import { Send } from "lucide-react";
 
 const FloatingTelegram = () => {
   return (
@@ -16,7 +16,7 @@ const FloatingTelegram = () => {
         className="h-14 w-14 rounded-full bg-blue-500 text-white shadow-lg transition-transform hover:scale-110 hover:bg-blue-600"
         aria-label="Join Telegram Group"
       >
-        <Telegram className="h-7 w-7" />
+        <Send className="h-7 w-7" />
       </Button>
     </a>
   );

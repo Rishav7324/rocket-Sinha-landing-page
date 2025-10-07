@@ -1,4 +1,4 @@
-import { Rocket, Telegram, Youtube, Instagram } from "lucide-react";
+import { Rocket, Send, Youtube, Instagram } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -45,7 +45,7 @@ const Footer = () => {
             <h4 className="font-semibold">Follow Us</h4>
             <div className="mt-2 flex space-x-4">
               <Link href={socialLinks.Telegram} target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary">
-                <Telegram className="h-6 w-6" />
+                <Send className="h-6 w-6" />
               </Link>
               <Link href={socialLinks.YouTube} target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary">
                 <Youtube className="h-6 w-6" />
