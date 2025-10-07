@@ -11,35 +11,45 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Star } from "lucide-react";
-import Image from "next/image";
 
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      id: "profit-screenshot-1",
+      id: "rohan",
       name: "Rohan S.",
       handle: "Trader",
       review: "Yeh 100% rule strategy toh mind-blowing hai. Mera win rate itna high kabhi nahi tha. Shukriya, Rocket Signals!",
     },
     {
-      id: "telegram-review-1",
+      id: "priya",
       name: "Priya M.",
       handle: "New Member",
       review: "Pichle hafte join kiya aur already profit mein. Community bahut helpful hai aur signals bhi ekdam accurate hain.",
     },
     {
-      id: "profit-screenshot-2",
+      id: "vikram",
       name: "Vikram T.",
       handle: "Veteran Trader",
       review: "Bohot saare groups join kiye, par pehli baar koi group mila jo apne promises poore karta hai. Asli results, asli guidance.",
     },
     {
-      id: "telegram-review-2",
+      id: "aisha",
       name: "Aisha K.",
       handle: "Part-time Trader",
       review: "Finally ek aisa system mila jo mere busy schedule ke saath kaam karta hai. Live calls sabse best part hai. Highly recommended!",
+    },
+    {
+      id: "sandeep",
+      name: "Sandeep P.",
+      handle: "Student",
+      review: "College ke saath-saath extra income karna possible ho gaya hai. Rocket Signals ki team ko salaam!",
+    },
+    {
+      id: "neha",
+      name: "Neha G.",
+      handle: "Beginner",
+      review: "Trading se darr lagta tha, but inke step-by-step course ne sab aasan kar diya. Ab main confident feel karti hoon.",
     },
   ];
 
@@ -58,33 +68,18 @@ const TestimonialsSection = () => {
           <Carousel
             opts={{
               align: "start",
-              loop: true,
             }}
             className="w-full"
           >
             <CarouselContent>
               {testimonials.map((testimonial) => {
-                const image = PlaceHolderImages.find(
-                  (img) => img.id === testimonial.id
-                );
                 return (
                   <CarouselItem
                     key={testimonial.id}
-                    className="sm:basis-1/2 lg:basis-1/4"
+                    className="sm:basis-1/2 lg:basis-1/3"
                   >
                     <div className="p-1">
-                      <Card className="flex h-full flex-col overflow-hidden">
-                        {image && (
-                          <div className="aspect-[3/4] overflow-hidden">
-                            <Image
-                              src={image.imageUrl}
-                              alt={image.description}
-                              width={400}
-                              height={600}
-                              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-                            />
-                          </div>
-                        )}
+                      <Card className="flex h-full flex-col justify-between overflow-hidden">
                         <CardHeader>
                           <div className="flex items-center">
                             {[...Array(5)].map((_, i) => (
