@@ -60,3 +60,57 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+    .prose {
+        @apply text-foreground/80;
+    }
+    .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+        @apply text-foreground;
+    }
+    .prose h1 {
+      @apply text-4xl font-extrabold mb-4;
+    }
+    .prose h2 {
+        @apply text-3xl font-bold mt-12 mb-4;
+    }
+    .prose h3 {
+        @apply text-2xl font-bold mt-8 mb-4;
+    }
+    .prose p, .prose ul, .prose ol, .prose blockquote, .prose table {
+        @apply my-6 text-base leading-relaxed;
+    }
+    .prose a {
+        @apply text-primary hover:text-primary/80;
+    }
+    .prose strong {
+        @apply text-foreground font-semibold;
+    }
+    .prose ul {
+        @apply list-disc pl-6;
+    }
+    .prose ol {
+        @apply list-decimal pl-6;
+    }
+    .prose li {
+      @apply my-2;
+    }
+    .prose blockquote {
+        @apply border-l-4 border-primary pl-4 italic text-foreground/60;
+    }
+    .prose code {
+        @apply bg-card text-primary px-1 py-0.5 rounded-sm font-mono text-sm;
+    }
+    .prose pre {
+        @apply bg-card p-4 rounded-md overflow-x-auto;
+    }
+    .prose table {
+      @apply w-full border-collapse;
+    }
+    .prose th, .prose td {
+      @apply border border-border p-3 text-left;
+    }
+    .prose thead {
+      @apply bg-card;
+    }
+}

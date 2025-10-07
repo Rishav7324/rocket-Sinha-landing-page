@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Clock, Tag } from "lucide-react";
 import LegalLayout from "@/app/legal-layout";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 type BlogPostPageProps = {
   params: {
@@ -46,7 +48,7 @@ const BlogPostPage = ({ params }: BlogPostPageProps) => {
         <div className="mb-8">
           <Link
             href="/blog"
-            className="flex items-center text-primary hover:text-primary/80"
+            className="flex items-center text-primary hover:text-primary/80 no-underline"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Blog
@@ -74,7 +76,9 @@ const BlogPostPage = ({ params }: BlogPostPageProps) => {
         </div>
         <h1>{post.title}</h1>
         <p className="lead">{post.summary}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          {post.content}
+        </ReactMarkdown>
       </article>
     </LegalLayout>
   );
