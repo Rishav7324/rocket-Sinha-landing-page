@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const AboutSection = () => {
   const aboutImage = PlaceHolderImages.find(
-    (img) => img.id === "trader-at-computer"
+    (img) => img.id === "about-image"
   );
   const benefits = [
     "Deep understanding of candlestick patterns",

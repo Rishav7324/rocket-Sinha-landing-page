@@ -33,7 +33,7 @@
     {
       "id": "hero-background",
       "description": "Abstract background with glowing lines resembling a financial chart.",
-      "imageUrl": "/assets/hero-bg.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1599589830132-432d52b86780?q=80&w=2070&auto=format&fit=crop",
       "imageHint": "abstract chart"
     },
     {
@@ -59,6 +59,12 @@
       "description": "Proof of trading results.",
       "imageUrl": "/assets/proof4.jpg",
       "imageHint": "trading results"
+    },
+    {
+      "id": "about-image",
+      "description": "Smart caucasian businessman hand touch invisible stock chart market screen dark background. Business financial ideas concept.",
+      "imageUrl": "https://images.unsplash.com/photo-1624953587687-e259b76424d3?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "stock chart"
     }
   ]
 }
