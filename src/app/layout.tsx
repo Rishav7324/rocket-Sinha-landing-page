@@ -31,6 +31,7 @@ export default function RootLayout({
             `,
           }}
         />
+        <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="oiBknvLUkYQXfV" async></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
