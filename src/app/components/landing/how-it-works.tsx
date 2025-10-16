@@ -17,7 +17,7 @@ const HowItWorksSection = () => {
       title: "Send Trader ID",
       description:
         "After depositing, send a message with your Trader ID to our official Telegram admin for verification.",
-      link: "https://t.me/OFFICIALbinomobull",
+      link: "https://t.me/+QB3nsZ9T4L80NDQ9",
       linkText: "Message on Telegram",
     },
     {
@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
       title: "Start Winning",
       description:
         "Once verified, you'll be added to the private VIP group. Get instant access to signals, courses, and mentorship!",
-      link: "https://t.me/OFFICIALbinomobull",
+      link: "https://t.me/+QB3nsZ9T4L80NDQ9",
       linkText: "Go to Telegram",
     },
   ];

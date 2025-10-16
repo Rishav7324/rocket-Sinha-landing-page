@@ -67,7 +67,7 @@ const Header = () => {
                   ))}
                   <Button asChild>
                     <a
-                      href="https://t.me/OFFICIALbinomobull"
+                      href="https://t.me/+QB3nsZ9T4L80NDQ9"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

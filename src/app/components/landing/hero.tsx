@@ -38,7 +38,7 @@ const HeroSection = () => {
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row animate-in fade-in slide-in-from-bottom-8 duration-1000 ease-in-out">
           <Button size="lg" className="animate-glow bg-accent text-accent-foreground hover:bg-accent/90" asChild>
-            <a href="https://t.me/OFFICIALbinomobull" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/+QB3nsZ9T4L80NDQ9" target="_blank" rel="noopener noreferrer">
               Join VIP on Telegram <Rocket className="ml-2 h-5 w-5" />
             </a>
           </Button>
